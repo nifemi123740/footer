@@ -1,0 +1,74 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+.navbar-brand span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.navbar-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.sidebar{
+    min-height: 100vh;
+    background-color: plum;
+    padding-top: 20px;
+    box-shadow: 0 0.125rem 0.25rem salmon;
+}
+.sidebar .nav-link{
+    color:  black;
+    padding: 12px 20px;
+    border-left: 12px solid transparent;
+    font-size: 1.1em;
+}
+.sidebar .nav-link.active{
+    color: black;
+    border-left-color: rgb(68, 15, 103);
+    background-color: rgb(195, 130, 210);
+    font-weight: bold;
+}
+.main-content{
+    background-image: url(Apwww.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+}
+.lesson-card {
+    background-color: #3c1e6c;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    color: #c800ff;
+}
+.lesson-card:hover {
+    transform: translateY(-5px);
+}
+.lesson-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.lesson-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.btn-primary {
+    background-color: #f3c03f;
+    border: none;
+    color: #2c1a47;
+    font-weight: bold;
+    }
+.btn-primary:hover {
+    background-color: #e6b135;
+}
